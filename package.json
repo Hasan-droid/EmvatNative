@@ -15,7 +15,7 @@
     "@react-native-community/masked-view": "0.1.10",
     "@react-native-community/push-notification-ios": "1.7.1",
     "@react-native-firebase/app": "15.7.0",
-    "@react-native-firebase/messaging": "^16.4.6",
+    "@react-native-firebase/messaging": "15.7.0",
     "react-native": "0.64.2",
     "react-native-code-push": "7.0.5",
     "react-native-device-info": "8.0.1",
@@ -35,12 +35,12 @@
     "react-native-view-shot": "3.1.2"
   },
   "devDependencies": {
-    "@babel/runtime": "^7.20.6",
+    "@babel/runtime": "^7.8.4",
     "@mendix/native-mobile-toolkit": "latest",
     "detox": "17.14.5",
     "jetifier": "^1.6.3",
     "metro-react-native-babel-preset": "^0.64.0",
-    "patch-package": "^6.5.0"
+    "patch-package": "^6.2.2"
   },
   "engines": {
     "node": ">=14"
