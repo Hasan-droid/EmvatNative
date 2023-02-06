@@ -110,7 +110,7 @@
             "enabled": false
         }
     },
-    "appVersion": "0.0.1",
-    "buildNumber": 2,
-    "runtimeUrl": "https://emvat100-sandbox.mxapps.io/"
+    "appVersion": "0.0.3",
+    "buildNumber": 3,
+    "runtimeUrl": "http://emvat-lb-stg-server-76488947.me-central-1.elb.amazonaws.com/"
 }

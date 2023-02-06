@@ -3,6 +3,6 @@ PRODUCT_BUNDLE_IDENTIFIER = $(BUNDLE_IDENTIFIER)$(BUNDLE_IDENTIFIER_APPEND)
 BUNDLE_DISPLAY_NAME = EMVAT
 BUNDLE_IDENTIFIER = com.polaris.EMVAT
 
-RUNTIME_URL = https:\/\/emvat100-sandbox.mxapps.io/
+RUNTIME_URL = http:\/\/emvat-lb-stg-server-76488947.me-central-1.elb.amazonaws.com/
 
 PRODUCT_NAME = EMVAT
