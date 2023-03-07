@@ -110,7 +110,7 @@
             "enabled": false
         }
     },
-    "appVersion": "0.0.21",
-    "buildNumber": 21,
+    "appVersion": "0.0.12",
+    "buildNumber": 22,
     "runtimeUrl": "http://emvat-lb-stg-server-76488947.me-central-1.elb.amazonaws.com/"
 }
