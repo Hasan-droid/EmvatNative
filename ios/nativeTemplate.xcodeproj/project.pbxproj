@@ -44,12 +44,12 @@
 		EB59215B23BFA1F5001D6155 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB59215A23BFA1F5001D6155 /* main.m */; };
 		EB59215C23BFA1F5001D6155 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB59215A23BFA1F5001D6155 /* main.m */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
-		95108ACA732B476D911B6007 /* native_dependencies.json in Resources */ = {isa = PBXBuildFile; fileRef = FC9F3483C8054A43BE7AEF12 /* native_dependencies.json */; };
-		4EF5726A0B8044E6A4ABC8BB /* native_dependencies.json in Resources */ = {isa = PBXBuildFile; fileRef = FC9F3483C8054A43BE7AEF12 /* native_dependencies.json */; };
-		A7F8A2B2C0B04AB68D3386D7 /* Dubai-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 219034A535224F9CABDC90CF /* Dubai-Medium.ttf */; };
-		6E44721CBCD0427D8B3A9AB1 /* Dubai-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 219034A535224F9CABDC90CF /* Dubai-Medium.ttf */; };
-		07915D49E6B949979D231951 /* Geometria-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96931C5B23E449D390EA4020 /* Geometria-Medium.ttf */; };
-		C6A199F14B1B4D8590DA3866 /* Geometria-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96931C5B23E449D390EA4020 /* Geometria-Medium.ttf */; };
+		F011765C562C4A8B9C26336D /* Dubai-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C1359DD16F94761AFE7564B /* Dubai-Medium.ttf */; };
+		DDF9BCAF5BA54443B4E5A007 /* Dubai-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C1359DD16F94761AFE7564B /* Dubai-Medium.ttf */; };
+		AD5504C8C6AE4FB6B3CD41E2 /* Geometria-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E49F152E6AF74D649D217269 /* Geometria-Medium.ttf */; };
+		A5C7A96558AD4C839C9D0DEB /* Geometria-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E49F152E6AF74D649D217269 /* Geometria-Medium.ttf */; };
+		58BB51CD8D1A4B4EADE9D757 /* native_dependencies.json in Resources */ = {isa = PBXBuildFile; fileRef = 5FE67345452149D9A0A7F3C3 /* native_dependencies.json */; };
+		0FE21E281A5E43C684BF97AF /* native_dependencies.json in Resources */ = {isa = PBXBuildFile; fileRef = 5FE67345452149D9A0A7F3C3 /* native_dependencies.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -104,9 +104,9 @@
 		EBC80A6022DF4205007E5F3D /* config.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = config.debug.xcconfig; sourceTree = "<group>"; };
 		EBC80A6122DF42DF007E5F3D /* config.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = config.release.xcconfig; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		FC9F3483C8054A43BE7AEF12 /* native_dependencies.json */ = {isa = PBXFileReference; name = "native_dependencies.json"; path = "native_dependencies.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		219034A535224F9CABDC90CF /* Dubai-Medium.ttf */ = {isa = PBXFileReference; name = "Dubai-Medium.ttf"; path = "Dubai-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		96931C5B23E449D390EA4020 /* Geometria-Medium.ttf */ = {isa = PBXFileReference; name = "Geometria-Medium.ttf"; path = "Geometria-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3C1359DD16F94761AFE7564B /* Dubai-Medium.ttf */ = {isa = PBXFileReference; name = "Dubai-Medium.ttf"; path = "Dubai-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E49F152E6AF74D649D217269 /* Geometria-Medium.ttf */ = {isa = PBXFileReference; name = "Geometria-Medium.ttf"; path = "Geometria-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5FE67345452149D9A0A7F3C3 /* native_dependencies.json */ = {isa = PBXFileReference; name = "native_dependencies.json"; path = "native_dependencies.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,7 +152,7 @@
 				1AAE158823C5FEFC00F855F4 /* SwiftInterop.swift */,
 				2C887FD924B88A0E0003DC53 /* LaunchScreen.storyboard */,
 				2C005A7823D5B1E200003E29 /* nativeTemplate.entitlements */,
-				FC9F3483C8054A43BE7AEF12 /* native_dependencies.json */,
+				5FE67345452149D9A0A7F3C3 /* native_dependencies.json */,
 			);
 			name = NativeTemplate;
 			sourceTree = "<group>";
@@ -268,8 +268,8 @@
 			isa = PBXGroup;
 			children = (
 				EB55620B22E0755000E19C26 /* glyphicons-halflings-regular.ttf */,
-				219034A535224F9CABDC90CF /* Dubai-Medium.ttf */,
-				96931C5B23E449D390EA4020 /* Geometria-Medium.ttf */,
+				3C1359DD16F94761AFE7564B /* Dubai-Medium.ttf */,
+				E49F152E6AF74D649D217269 /* Geometria-Medium.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -378,9 +378,9 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				EB55620C22E0755000E19C26 /* glyphicons-halflings-regular.ttf in Resources */,
 				1A0B3AF323990C2400388BF7 /* config.xcconfig in Resources */,
-				95108ACA732B476D911B6007 /* native_dependencies.json in Resources */,
-				A7F8A2B2C0B04AB68D3386D7 /* Dubai-Medium.ttf in Resources */,
-				07915D49E6B949979D231951 /* Geometria-Medium.ttf in Resources */,
+				F011765C562C4A8B9C26336D /* Dubai-Medium.ttf in Resources */,
+				AD5504C8C6AE4FB6B3CD41E2 /* Geometria-Medium.ttf in Resources */,
+				58BB51CD8D1A4B4EADE9D757 /* native_dependencies.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,9 +396,9 @@
 				1A0B3AF12399095C00388BF7 /* config.xcconfig in Resources */,
 				1A0B3AEA2398185600388BF7 /* config.debug.xcconfig in Resources */,
 				1A0B3A9C2397DA2300388BF7 /* LaunchApp.storyboard in Resources */,
-				4EF5726A0B8044E6A4ABC8BB /* native_dependencies.json in Resources */,
-				6E44721CBCD0427D8B3A9AB1 /* Dubai-Medium.ttf in Resources */,
-				C6A199F14B1B4D8590DA3866 /* Geometria-Medium.ttf in Resources */,
+				DDF9BCAF5BA54443B4E5A007 /* Dubai-Medium.ttf in Resources */,
+				A5C7A96558AD4C839C9D0DEB /* Geometria-Medium.ttf in Resources */,
+				0FE21E281A5E43C684BF97AF /* native_dependencies.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
