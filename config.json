@@ -109,8 +109,5 @@
         "nativeOTA": {
             "enabled": true
         }
-    },
-    "appVersion": "0.0.21",
-    "buildNumber": 21,
-    "runtimeUrl": "http://emvat-lb-stg-server-76488947.me-central-1.elb.amazonaws.com/"
+    }
 }
